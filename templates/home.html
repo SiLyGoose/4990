@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="promptWrapper">
+	<div class="promptQuestion fontPrompt">{{ promptQuestion }}</div>
+	<div class="inputContainer">
+		<input type="text" id="promptQuery" class="fontInput" placeholder="Enter answer here" autocomplete="off" spellcheck="false" />
+	</div>
+	<div class="buttonContainer">
+		<div class="button buttonSubmit">
+			<span>Submit</span>
+		</div>
+	</div>
+</div>
+{% endblock %}

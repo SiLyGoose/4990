@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="outfitWrapper">
+	<div>
+		<span class="fontTitle">Outfit {{ outfitNumber + 1 }}</span>
+	</div>
+	<ul class="outfit">
+		{% for apparel in outfit %}
+		<li class="apparel">
+			<div>
+				<span class="fontSubtitle">{{ apparel }}</span>
+			</div>
+		</li>
+		{% endfor %}
+	</ul>
+</div>
+<div class="promptWrapper">
+	<div class="imageWrapper">
+		<div class="image">
+			<img src="{{ url }}" alt="Outfit Image" />
+		</div>
+	</div>
+	<div class="imageNavWrapper">
+		<div class="buttonContainer">
+			<div class="button buttonPrev">
+				<span>Previous</span>
+			</div>
+		</div>
+		<div class="buttonContainer">
+			<div class="button buttonNext">
+				<span>Next</span>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}

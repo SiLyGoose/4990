@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "Roboto";
+    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url('../fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Italic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.fontLogo {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.fontTitle {
+    font-size: 36px;
+}
+
+.fontSubtitle {
+    font-size: 24px;
+}
+
+.fontPrompt {
+    font-size: 18px;
+}
+
+.fontInput {
+    font-size: 14px;
+}
